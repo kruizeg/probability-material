@@ -57,4 +57,12 @@ It's false: $\V{V} = n\V{Z_1^2} = n\left(\E{Z_1^4} - \E{Z_1^2}^2\right) = 2n$.
 \end{solution}
 \end{truefalse}
 
+\begin{truefalse}
+Let $V_n \sim \chi^2_n$. Claim: $\frac{V_n}{n}\to1$ as $n\to\infty$ with probability 1.
+
+\begin{solution}
+True. Note that $\frac{V_n}{n}=\frac{1}{n}\sum_{i=1}^nZ_i^2$, where $Z_i \sim \Norm{0,1}$, $i=1,\dots,n$. By SLLN, $\frac{1}{n}\sum_{i=1}^nZ_i^2\to\E{Z_1^2}=1$ with probability 1.
+\end{solution}
+\end{truefalse}
+
 \end{document}
